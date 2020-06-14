@@ -16,6 +16,7 @@ Our solution focus on decreasing and preventing heat injury incidents. We came u
 
 ## The Architecture
 
+
 ## Long Description
 Our solution to the problem Climate Change can help SCDF training to be better than ever. Our idea consists of having a device worn by the first responders to send data such as body temperature and heart rate to a database, while analysing the data and present them neatly into a dashboard.
 
