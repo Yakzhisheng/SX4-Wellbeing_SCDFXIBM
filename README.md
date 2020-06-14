@@ -18,7 +18,43 @@ Our solution focus on decreasing and preventing heat injury incidents. We came u
 
 ## Long Description
 
+
+### Tracking
+Temperature:
+A device to be worn like an ear piece to take ear temperature regularly.
+Heart rate:
+Device for the wrist / chest to count the heart rate.
+
+### Dashboard
+[Dashboard Example](https://dataplatform.cloud.ibm.com/dashboards/ef63fafe-f903-4d14-9d81-17e81c929840/view/5b17ab3c31970bc355d4eee40790255779362708b0bbd20a878d7b495b337197a86a1a99c8791f528c155437f4b91b51c8)
+In the dashboard will show the temperature / the heart rate of many first responders by using a bar chart, while on the left will show the number of first responder under the different risk that may result in differnet injury.
+Bottom of the dashboard will be a table list of all the first reponders and their current location / activity.
+
+### Code
+The code submitted uses the API provided by [Data.gov.sg](https://data.gov.sg/) to get air temperature of Singapore locations and uses it to calculate the heat index in order to determine if the weather in that location is suitable for activity.
+Note: We are unable to get the API for humidity thus humidity will be randomly generated in the code.
+
 ## Getting Started
+[Installing Jupyter Notebook](https://jupyter.org/install)
+
+#### Prerequisite: Python
+While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the JupyterLab or the classic Jupyter Notebook.
+#### conda
+If you use conda, you can install it with:
+```
+conda install -c conda-forge notebook
+```
+#### pip
+If you use pip, you can install it with:
+```
+pip install notebook
+```
+#### run
+Run the following command at the Terminal (Mac/Linux) or Command Prompt (Windows):
+```
+jupyter notebook
+```
+Download the ipynb file from this repository and run it with Jupyter Notebook
 
 ## Built With
 * [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - Data preparation
